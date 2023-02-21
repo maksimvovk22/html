@@ -1,0 +1,154 @@
+html {
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+::before ::after {
+  box-sizing: inherit;
+}
+.container {
+  width: 1128px;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+body {
+  margin: 0;
+  font-family: 'Raleway';
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+header {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 25px 0px;
+}
+li {
+  list-style-type: none;
+  text-decoration: none;
+}
+.web {
+  font-size: 19px;
+  line-height: 24px;
+  color: #4d5ae5;
+}
+.Studio {
+  font-size: 19px;
+  line-height: 24px;
+  color: #2e2f42;
+  margin-left: 156px;
+}
+.menu {
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  gap: 40px;
+  margin-left: 76px;
+}
+.menu a:hover {
+  color: tomato;
+}
+.inf {
+  display: flex;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #434455;
+  margin-left: 156px;
+  gap: 40px;
+}
+.WebSite:hover {
+  color: tomato;
+}
+.App:hover {
+  color: tomato;
+}
+.Design:hover {
+  color: tomato;
+}
+.Marketing:hover {
+  color: tomato;
+}
+.btn {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  height: 24px;
+  line-height: 20px;
+
+  padding: 12px 24px 12px 24px;
+  border-radius: 4px;
+
+  color: #ffffff;
+  background: #404bbf;
+  cursor: pointer;
+}
+.btn:hover {
+  color: tomato;
+}
+.info {
+  gap: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #4d5ae5;
+}
+.section {
+  margin-top: 96px;
+  margin-bottom: 72px;
+}
+.img {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-bottom: 120px;
+}
+.img h3 {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 8px;
+  margin-top: 32px;
+}
+.img p {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 8px;
+  margin-bottom: 32px;
+}
+footer {
+  background-color: #2e2f42;
+  max-height: 310px;
+  padding: 100px 0;
+}
+
+.WEB {
+  font-size: 19px;
+  line-height: 24px;
+  color: #4d5ae5;
+}
+
+.Studioo {
+  margin-top: 100px;
+  font-weight: 800;
+  font-size: 18px;
+  color: #f4f4fd;
+}
+.texst {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #e7e9fc;
+}
